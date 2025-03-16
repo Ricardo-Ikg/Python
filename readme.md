@@ -24,7 +24,7 @@ A estrutura do repositório está organizada da seguinte forma:
 
    ```bash
    git clone https://github.com/Ricardo-Ikg/Python.git
-   cd Estudo-de-Python
+   cd Python
    ```
 Escolha um subdiretório de acordo com o seu interesse para começar a explorar e executar os projetos.
 
