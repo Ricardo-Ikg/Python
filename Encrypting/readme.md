@@ -40,6 +40,18 @@ Os **operadores bitwise** são utilizados no projeto por diversas razões:
 ## Como Rodar o Projeto
 
 1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-bitwise.git
-   cd projeto-bitwise
+```bash
+   git clone https://github.com/Ricardo-Ikg/Python.git
+   cd Encrypting
+
+2. **Saída do Arquivo Criptografado:**
+ O código irá gerar um novo arquivo com o conteúdo criptografado, no mesmo diretório.
+```bash
+   python Encrypting.py
+
+3.**Saída do Arquivo Criptografado:**
+ O código irá gerar um novo arquivo com o conteúdo criptografado, no mesmo diretório.
+
+###Conclusão
+
+Este projeto oferece uma visão prática de como manipular dados em nível de bit, utilizando operadores bitwise para implementar uma criptografia simples. Através deste exemplo, pode-se aprender mais sobre como funcionam as operações bitwise e como elas podem ser utilizadas em diferentes contextos, como em segurança de dados, compressão e otimização de desempenho.
