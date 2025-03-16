@@ -1,0 +1,3 @@
+desktop.ini
+Test
+Test_encrypted.txt
