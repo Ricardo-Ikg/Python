@@ -8,11 +8,13 @@ def encrypting(elements):
 
 def writer(new_letters, file):
         encrypted_file = (os.path.basename(file) + "_encrypted.txt") 
-        with open (encrypted_file, "w") as f:
+        encrypted_path = (os.path.join(os.path.dirname(file), encrypted_file))
+        with open (encrypted_path, "w", encoding = "utf-8") as f:
             f.write(new_letters)
         print(f"encrypted file saved as {encrypted_file}")
-
-file = input("Put the path of file to be encrypted:").strip()
+        print(f"file save at {encrypted_path}") 
+file = input("Put the path of file to be encrypted:").strip('"').strip("'")
+file = os.path.abspath(file)
 with open (file,"r", encoding= "utf-8") as reading:
       content = reading.read()
 
